@@ -6769,21 +6769,21 @@ button.close {
 
 /* Custom */
 footer {
-    color: #fff;
+    color: $white;
     padding: 25px 0;
     
-    background-color: #057708;
+    background-color: $green;
 }
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #057708;
+    background-color: $green;
 }
 
 .btn-game{
-  color: #fff;
+  color: $white;
   font-size: 25px;
-  background-color: #02aac6;
+  background-color: $blue;
   border: 10px;
   border-color: #000;
 
@@ -6791,20 +6791,20 @@ footer .footer-below {
 
 .btn-game:focus,
 .btn-game.focus {
-  color: #fff;
-  background-color: #037b8e;
+  color: $white;
+  background-color: $blue;
   border-color: #8c8c8c;
 }
 .btn-game:hover {
-  color: #fff;
-  background-color: #037b8e;
+  color: $white;
+  background-color: $blue;
   border-color: #adadad;
 }
 .btn-game:active,
 .btn-game.active,
 .open > .dropdown-toggle.btn-game {
-  color: #fff;
-  background-color: #037b8e;
+  color: $white;
+  background-color: $blue;
   border-color: #adadad;
 }
 
@@ -6812,12 +6812,12 @@ footer .footer-below {
   font-family: 'Bangers';
   font-size: 30pt;
   text-align: center;
-  color: #fff;
+  color: $white;
 }
 .intrucoes{
   font-size: 14pt;
   text-align: center;
-  color: #fff;
+  color: $white;
 }
 .center{
   text-align: center;
@@ -6827,6 +6827,6 @@ footer .footer-below {
   font-family: 'Bangers';
   font-size: 100pt;
   text-align: center;
-  color: #fff;
+  color: $white;
 
 }
