@@ -1,5 +1,17 @@
 //Colors
-
 $green: #057708;
 $blue: #02aac6;
 $white: #ffffff;
+
+//Fontes
+
+@import url('https://fonts.googleapis.com/css?family=Bangers|Press+Start+2P');
+
+$font-logo: 'Bangers', serif;
+$font-body: 'Press Start 2p', serif;
+
+
+.container-game {
+  display: flex;
+  justify-content: center;
+}

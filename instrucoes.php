@@ -2,14 +2,22 @@
 <audio autoplay>
   <source src="snd/jambalaya.mp3" type="audio/mp3" />
 </audio>
-<h1 class="titulo">Instruções</h1>
-<ul>
- <li class="intrucoes">Para iniciar clique no botão PUSH.</li><br>
-<li class="intrucoes"> Você terá 1 minuto para completar a fase.</li><br>
-<li class="intrucoes">Para passar à próxima fase você precisar conseguir 450 pontos.</li><br>
-<li class="intrucoes">Se perder volta à primeira fase</li><br>
-<li class="intrucoes"> <- Move à esquerda.</li><br>
-<li class="intrucoes"> -> Move à direita.</li><br>
-<li class="intrucoes"> Pegue as frutas direcionando o Fazendeiro onde possam cair no cesto.</li><br>
-<li class="intrucoes">   ENTER - Pausa</li></ul>
+
+<div class="container-instru">
+  <h1 class="titulo-robo">Instrucoes</h1>
+
+  <div class="container-instru">
+    <p class="instru"> Para iniciar clique no botao PUSH </p>
+    <p class="instru"> Você terá 1 minuto para completar a fase </p>
+    <p class="instru"> Para passar a proxima fase voce precisar conseguir 450 pontos </p>
+    <p class="instru"> Se perder volta à primeira fase </p>
+    <p class="instru"> <- Move a esquerda </p>
+    <p class="instru"> -> Move a direita </p>
+    <p class="instru"> Pegue as frutas direcionando o Fazendeiro onde possam cair no cesto </p>
+    <p class="instru"> ENTER - Pausa </p>
+  </div>
+</div>
+
+
 <?php include 'footer.php'; ?>
+

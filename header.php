@@ -18,7 +18,7 @@
         <a href="historia.php"><button type="button" class="btn btn-game">Jogar</button></a>
       </div>
       <div class="btn-group" role="group">
-        <a href="instrucoes.php"><button type="button" class="btn btn-game">Instruções</button></a>
+        <a href="instrucoes.php"><button type="button" class="btn btn-game">Instrucoes</button></a>
       </div>
       <div class="btn-group" role="group">
         <a href="index.php"><button type="button" class="btn btn-game">Sair</button></a>
