@@ -1,0 +1,18 @@
+//Grid
+@mixin d($dispositivo){
+	@if $dispositivo == s {
+		@media only screen and (max-width: 768px) {
+			@content;
+		}
+	} @else if $dispositivo == mobile {
+		@media only screen and (max-width: 600px) {
+			@content;
+		}
+	} @else if $dispositivo == tablet {
+			@media only screen and (min-width: 601px) and (max-width: 959px) {
+				@content;
+			}
+
+		}
+
+	}

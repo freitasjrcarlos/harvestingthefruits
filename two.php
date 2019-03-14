@@ -13,38 +13,21 @@
 #link_jogar {
 	/* Inicia oculto */
 	display: none;
-	/* Cores e fundo */
-	color: null;
-	background: url(img/botao-jogar.png);
-	/* Fonte */
-	font-size: 20px;
-	font-family: sans-serif;
-	/* Sem sublinhado e com sombra */
-	text-decoration: none;
-	text-shadow: 2px 2px 5px black;
-	/* Posicionamento */
-	position: absolute;
-	left: 620px;
-	top: 250px;
-	/* A imagem do botão é 72x72, descontamos os paddings */
-	width: 90px;
-	height: 38px;
-	padding: 40px 55px;
+	
 }
 </style>
-   </head>
+</head>
 
-   <body>
-<center>
-     <canvas id="canvas_animacao" width="500" height="500"></canvas>
-   </center>
-<a id="link_jogar" href="javascript: iniciarJogo()" align=center></a> 
+<body>
+<div class="canvas">
+  <canvas id="canvas_animacao" width="500" height="500"></canvas>
+</div>
 
-<!--Botões -->
+<div class="canvas">
+   <a id="link_jogar" href="javascript: iniciarJogo()"><button class="btn btn-game">Jogar</button></a>
+</div>
 
-<center>
-     <a href="index.php"> <img src="img/desistir.png" width="120" height="50"> </a> <a href="instrucoes.php"><img src="img/instrucoes.png" width="120" height="50"></a>
-   </center>
+
 <script>
       // Canvas e Context
       var canvas = document.getElementById('canvas_animacao');

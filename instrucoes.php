@@ -7,7 +7,7 @@
   <h1 class="titulo-robo">Instrucoes</h1>
 
   <div class="container-instru">
-    <p class="instru"> Para iniciar clique no botao PUSH </p>
+    <p class="instru"> Para iniciar clique no botao jogar </p>
     <p class="instru"> Você terá 1 minuto para completar a fase </p>
     <p class="instru"> Para passar a proxima fase voce precisar conseguir 450 pontos </p>
     <p class="instru"> Se perder volta à primeira fase </p>

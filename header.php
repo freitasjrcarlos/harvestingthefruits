@@ -12,7 +12,7 @@
   </head>
 
   <body>
-  <header>
+  <header class="alerta">
       <div class="btn-group btn-group-justified" role="group" aria-label="...">
       <div class="btn-group" role="group">
         <a href="historia.php"><button type="button" class="btn btn-game">Jogar</button></a>

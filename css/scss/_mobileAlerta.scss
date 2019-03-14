@@ -1,0 +1,27 @@
+.alerta {  
+  @include d(mobile){
+		display: none;	
+  }
+  @include d(tablet){
+		display: none;		
+	}
+}
+
+.mensagem {
+  display: none;
+  @include d(mobile){
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;	
+  }
+  @include d(tablet){
+		display: flex;
+    justify-content: center;	
+    margin-top: 100px;	
+  }
+  h1{
+    color: $white;
+    text-align: center;
+  }
+  padding: 10px;
+}
