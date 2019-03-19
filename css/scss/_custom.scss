@@ -6787,27 +6787,16 @@ footer .footer-below {
   background-color: $blue;
   border: 10px;
   border-color: #000;
-
-}
-
-.btn-game:focus,
-.btn-game.focus {
-  color: $white;
-  background-color: $blue;
-  border-color: #8c8c8c;
-}
-.btn-game:hover {
-  color: $white;
+  transition: .5s;
+  &:hover {
+    color: $white;
   background-color: #122b40;
   border-color: #adadad;
+    transition: .5s;
+  }
+
 }
-.btn-game:active,
-.btn-game.active,
-.open > .dropdown-toggle.btn-game {
-  color: $white;
-  background-color: $blue;
-  border-color: #adadad;
-}
+
 
 .titulo{
   font-family: $font-logo;
@@ -6829,9 +6818,6 @@ footer .footer-below {
   font-size: 14pt;
   text-align: center;
   color: $white;
-}
-.center{
-  text-align: center;
 }
 
 .titulo-parabens{

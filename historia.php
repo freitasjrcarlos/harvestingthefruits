@@ -11,7 +11,7 @@
 	</div>
 </div>	
 
-<div class="container center">	
-	<a href="one.php"><button class="btn btn-game" align="center">Jogar</button></a>
+<div class="container-game">	
+	<a href="one.php"><button class="btn btn-game">Jogar</button></a>
 </div>
 <?php include 'footer.php' ?>

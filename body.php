@@ -13,9 +13,10 @@
         <div class="animated rollIn">
           <img src="img/svg/sol.svg" height="250px">
         </div>
-            <div align="center">
-              <img src="img/svg/fazenda.svg" height="250px">      
-            </div>       
+           <div class="container-game">
+              <img src="img/svg/fazenda.svg" height="250px"> 
+            </div>     
+                  
       </div>
     </div>
 </div>
