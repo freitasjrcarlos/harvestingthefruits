@@ -1,4 +1,4 @@
-var SOM_TIRO = new Audio();
+let SOM_TIRO = new Audio();
 SOM_TIRO.src = 'snd/tiro.mp3';
 SOM_TIRO.volume = 0.2;
 SOM_TIRO.load();
@@ -7,7 +7,7 @@ function Tiro(context, fazendeiro) {
    this.context = context;
    this.fazendeiro = fazendeiro;
    
-   // Posicionar o tiro no bico da fazendeiro
+   // Queda maça
    this.largura = 3;
    this.altura = 10;   
    this.x = fazendeiro.x + 18;  // 36 / 2
@@ -23,14 +23,14 @@ Tiro.prototype = {
       this.y -= 
          this.velocidade * this.animacao.decorrido / 1000;
       
-      // Excluir o tiro quando sumir da tela
+      // Excluir a maça quando sumir da tela
       if (this.y < -this.altura) {
          this.animacao.excluirSprite(this);
          this.colisor.excluirSprite(this);
       }
    },
    desenhar: function() {
-      var ctx = this.context;
+      let ctx = this.context;
       ctx.save();
       ctx.fillStyle = this.cor;
       ctx.fillRect(this.x, this.y, this.largura, this.altura);

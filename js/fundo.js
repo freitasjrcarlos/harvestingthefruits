@@ -15,10 +15,10 @@ Fundo.prototype = {
          this.posicaoEmenda = 0;
    },
    desenhar: function() {
-      var img = this.imagem;  // Para facilitar a escrita :D
+      let img = this.imagem;  // Para facilitar a escrita :D
       
       // Primeira cópia
-      var posicaoY = this.posicaoEmenda - img.height;
+      let posicaoY = this.posicaoEmenda - img.height;
       this.context.drawImage(img, 0, posicaoY, img.width, img.height);
       
       // Segunda cópia

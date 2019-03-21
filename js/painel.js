@@ -12,9 +12,10 @@ Painel.prototype = {
       // Reduz o desenho pela metade
       this.context.scale(0.5, 0.5);
       
-      var x = 20;
-      var y = 20;
+      let x = 20;
+      let y = 20;
       
+      /* Vidas extras */
       /*for (var i = 1; i <= this.fazendeiro.vidasExtras; i++) {
          this.spritesheet.desenhar(x, y);
          x += 40;
@@ -24,11 +25,11 @@ Painel.prototype = {
       this.context.scale(2, 2);
       
       // Para facilitar um pouco...
-      var ctx = this.context;
+      let ctx = this.context;
       
       // Pontuação
       ctx.save();
-      ctx.fillStyle = ' BLUE';
+      ctx.fillStyle = ' #FF8C00';
       ctx.font = '24px sans-serif';
       ctx.fillText(this.pontuacao, 12, 20);
       ctx.restore();   
