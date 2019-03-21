@@ -24,6 +24,7 @@ Fazendeiro.prototype = {
                this.x < this.context.canvas.width - 36)
          this.x += incremento;
          
+      //Caso querer adicionar posteriormente
       if (this.teclado.pressionada(SETA_ACIMA) && this.y > 0)
          this.y -= incremento;
          
@@ -43,13 +44,13 @@ Fazendeiro.prototype = {
       this.spritesheet.proximoQuadro();
    },
    atirar: function() {
-      var t = new Tiro(this.context, this);
+      let t = new Tiro(this.context, this);
       this.animacao.novoSprite(t);
       this.colisor.novoSprite(t);
    },
    retangulosColisao: function() {
       // Estes valores vão sendo ajustados aos poucos
-      var rets = 
+      let rets = 
       [ 
          
          {x: this.x+20, y: this.y+98, largura: 75, altura: 58}
@@ -78,9 +79,9 @@ Fazendeiro.prototype = {
          this.colisor.excluirSprite(this);
          this.colisor.excluirSprite(outro);
          
-         var exp1 = new Explosao(this.context, this.imgExplosao,
+         let exp1 = new Explosao(this.context, this.imgExplosao,
                                  this.x, this.y);
-         var exp2 = new Explosao(this.context, this.imgExplosao,
+         let exp2 = new Explosao(this.context, this.imgExplosao,
                                  outro.x, outro.y);
          
          this.animacao.novoSprite(exp1);
@@ -96,7 +97,7 @@ Fazendeiro.prototype = {
          
 			
             if (painel.pontuacao >= 450) {
-        var newLocation = window.location.href.split('/');
+        let newLocation = window.location.href.split('/');
         newLocation.pop();
         newLocation.push('youWin.php');
         window.location = newLocation.join('/');
@@ -113,7 +114,7 @@ Fazendeiro.prototype = {
       }
    },
    posicionar: function() {
-      var canvas = this.context.canvas;
+      let canvas = this.context.canvas;
       this.x = canvas.width / 2 - 18;  // 36 / 2
       this.y = canvas.height - 154;
    }
