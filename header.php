@@ -4,6 +4,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Game criado com JS e Canvas.">
+    <meta property="og:type" content="Website/Game"/>		
+    <meta property="og:title" content="Harvesting the Fruits"/>	
+    <meta property="og:description" content="Game criado com JS e Canvas."/>
+    <meta property="og:url" content="http://projetos.freitas.space/game"/>
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link href='https://fonts.googleapis.com/css?family=Covered+By+Your+Grace' rel='stylesheet' type='text/css'>
