@@ -1,12 +1,8 @@
-	<footer class="text-center navbar-fixed-bottom">
-		<div class="footer-above"">
-    		<div class="footer-below navbar-fixed-bottom">
-   				<div class="container">
-     				<div class="row">
-        				<div class="col-lg-12"> </div>
-     				 </div>
-   				</div>
- 			</div>
- 		</div>
+	<footer class="navbar-fixed-bottom footer-game">
+		<div class="container-game">
+			<a href="https://github.com/freitasjrcarlos/harvestingthefruits" target="_blank">
+				<img src="img/github-logo.svg" class="image-footer">
+			</a>
+			</div>
 	</footer>
 </html>
