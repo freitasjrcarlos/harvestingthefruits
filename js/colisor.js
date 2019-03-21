@@ -10,16 +10,16 @@ Colisor.prototype = {
    },
    processar: function() {
       // Inicio com um objeto vazio
-      var jaTestados = new Object();
+      let jaTestados = new Object();
 
-      for (var i in this.sprites) {
-         for (var j in this.sprites) {
+      for (let i in this.sprites) {
+         for (let j in this.sprites) {
             // Não colidir um sprite com ele mesmo
             if (i == j) continue;
 
             // Gerar strings únicas para os objetos
-            var id1 = this.stringUnica(this.sprites[i]);
-            var id2 = this.stringUnica(this.sprites[j]);
+            let id1 = this.stringUnica(this.sprites[i]);
+            let id2 = this.stringUnica(this.sprites[j]);
 
             // Criar os arrays se não existirem
             if (! jaTestados[id1]) jaTestados[id1] = [];
@@ -43,14 +43,14 @@ Colisor.prototype = {
    },
    testarColisao: function(sprite1, sprite2) {
       // Obter os retângulos de colisão de cada sprite
-      var rets1 = sprite1.retangulosColisao();
-      var rets2 = sprite2.retangulosColisao();
-      var colidiu = false;
+      let rets1 = sprite1.retangulosColisao();
+      let rets2 = sprite2.retangulosColisao();
+      let colidiu = false;
 
       // Testar as colisões entre eles
       colisoes:
-      for (var i in rets1) {
-         for (var j in rets2) {
+      for (let i in rets1) {
+         for (let j in rets2) {
             // Abstraindo a fórmula!
             if (this.retangulosColidem(rets1[i], rets2[j])) {
                // Eles colidem, vamos notificá-los
@@ -91,10 +91,10 @@ Colisor.prototype = {
    },
    processarExclusoes: function() {
       // Criar um novo array
-      var novoArray = [];
+      let novoArray = [];
       
       // Adicionar somente os elementos não excluídos
-      for (var i in this.sprites) {
+      for (let i in this.sprites) {
          if (this.spritesExcluir.indexOf(this.sprites[i]) == -1)
             novoArray.push(this.sprites[i]);
       }
