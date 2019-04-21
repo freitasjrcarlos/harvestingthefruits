@@ -8,7 +8,7 @@ You can play with it here: http://projetos.freitas.space/game 🎮
 **Cloning project**
 ```
 cd your-directory
-git clone https://github.com/freitasjrcarlos/app_caixa.git
+git clone https://github.com/freitasjrcarlos/harvestingthefruits.git
 ```
 
 **Install npm dependencies**
