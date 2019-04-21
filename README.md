@@ -14,13 +14,11 @@ git clone https://github.com/freitasjrcarlos/app_caixa.git
 **Install npm dependencies**
 ```
 npm install
-
 ```
 
 **Run Gulp**
 ```
 gulp
-
 ```
 
 It can run on any server that supports PHP.
