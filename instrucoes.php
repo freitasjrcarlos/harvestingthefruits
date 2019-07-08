@@ -11,8 +11,8 @@
     <p class="instru"> Você terá 1 minuto para completar a fase </p>
     <p class="instru"> Para passar a proxima fase voce precisar conseguir 450 pontos </p>
     <p class="instru"> Se perder volta à primeira fase </p>
-    <p class="instru"> <- Move a esquerda </p>
-    <p class="instru"> -> Move a direita </p>
+    <p class="instru"> <- ou 'A' Move a esquerda </p>
+    <p class="instru"> -> ou 'D' Move a direita </p>
     <p class="instru"> Pegue as frutas direcionando o Fazendeiro onde possam cair no cesto </p>
     <p class="instru"> ENTER - Pausa </p>
   </div>
