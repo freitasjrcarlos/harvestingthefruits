@@ -16,13 +16,21 @@ Fazendeiro.prototype = {
    atualizar: function() {
       var incremento = 
           this.velocidade * this.animacao.decorrido / 500;
-      
+      //Setas
       if (this.teclado.pressionada(SETA_ESQUERDA) && this.x > 0)
          this.x -= incremento;
          
       if (this.teclado.pressionada(SETA_DIREITA) && 
                this.x < this.context.canvas.width - 36)
          this.x += incremento;
+
+      //Teclas
+      if (this.teclado.pressionada(TECLA_A) && this.x > 0)
+         this.x -= incremento;
+         
+      if (this.teclado.pressionada(TECLA_D) && 
+               this.x < this.context.canvas.width - 36)
+         this.x += incremento
          
       //Caso querer adicionar posteriormente
       if (this.teclado.pressionada(SETA_ACIMA) && this.y > 0)
@@ -33,10 +41,16 @@ Fazendeiro.prototype = {
          this.y += incremento;
    },
    desenhar: function() {
+      //Setas
       if (this.teclado.pressionada(SETA_ESQUERDA))
          this.spritesheet.linha = 1;
       else if (this.teclado.pressionada(SETA_DIREITA))
          this.spritesheet.linha = 2;
+      //Teclas
+      else if (this.teclado.pressionada(TECLA_A))
+      this.spritesheet.linha = 1;
+      else if (this.teclado.pressionada(TECLA_D))
+      this.spritesheet.linha = 2;
       else
          this.spritesheet.linha = 0;      
       

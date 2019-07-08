@@ -1,5 +1,7 @@
 // Códigos de teclas - aqui vão todos os que forem necessários
 let SETA_ESQUERDA = 37;
+let TECLA_A = 65;
+let TECLA_D = 68;
 let SETA_ACIMA = 0;
 let SETA_DIREITA = 39;
 let SETA_ABAIXO = 0;
