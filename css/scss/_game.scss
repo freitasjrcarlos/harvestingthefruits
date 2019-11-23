@@ -3,3 +3,27 @@
   justify-content: center;
   margin: 20px auto;
 }
+.animacao-home{
+  @include d(s){
+    display: none;
+  }
+}
+
+
+/* Large display */
+.animacao {
+  @include d(large){
+    transform: translateY(300px);
+  }
+}
+
+.titulo-robo{
+  @include d(large){
+    margin-top: 200px;
+  }
+}
+
+canvas#canvas_animacao {
+  margin-top: 100px;
+}
+
